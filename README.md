@@ -7,7 +7,7 @@ A library to convert Markdown files to DOCX format.
 From .whl file
 
 ## Usage
-
+```
 from md2docx import convert_markdown_to_docx
 
 markdown_text = """
@@ -18,3 +18,4 @@ This is a paragraph.
 """
 
 convert_markdown_to_docx(markdown_text, "output.docx")
+```
