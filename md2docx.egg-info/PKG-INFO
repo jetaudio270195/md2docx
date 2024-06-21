@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: md2docx
+Version: 0.1.0
+Summary: A library to convert Markdown files to DOCX format
+Home-page: https://github.com/yourusername/md2docx
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: python-docx
+Requires-Dist: markdown2
+Requires-Dist: beautifulsoup4
+
+# md2docx
+
+A library to convert Markdown files to DOCX format.
+
+## Installation
+
+pip install md2docx
+
+## Usage
+
+from md2docx import convert_markdown_to_docx
+
+markdown_text = """
+# Heading 1
+## Heading 2
+
+This is a paragraph.
+"""
+
+convert_markdown_to_docx(markdown_text, "output.docx")
