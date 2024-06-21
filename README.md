@@ -4,7 +4,7 @@ A library to convert Markdown files to DOCX format.
 
 ## Installation
 
-pip install md2docx
+From .whl file
 
 ## Usage
 
